@@ -24,6 +24,12 @@ jobs:
         with:
           root_file: cv.aux
           compiler: bibtex
+          args:       
+      - name: bibtex main
+        uses: dante-ev/latex-action@latest
+        with:
+          root_file: cv1-blx.aux
+          compiler: bibtex
           args: 
       - name: pdflatex main
         uses: dante-ev/latex-action@latest
